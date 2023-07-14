@@ -1,4 +1,4 @@
-Copyright 2023 LinkedIn Corporation
+**Copyright** 2023 LinkedIn Corporation
 All Rights Reserved.
 
 Licensed under the LinkedIn Learning Exercise File License (the "License").
@@ -18,11 +18,11 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 License: MIT
 https://opensource.org/licenses/MIT
 
-Please note, this project may automatically load third party code from external 
-repositories (for example, NPM modules, Composer packages, or other dependencies). 
-If so, such third party code may be subject to other license terms than as set 
-forth above. In addition, such third party code may also depend on and load 
-multiple tiers of dependencies. Please review the applicable licenses of the 
+Please note, this project may automatically load third party code from external
+repositories (for example, NPM modules, Composer packages, or other dependencies).
+If so, such third party code may be subject to other license terms than as set
+forth above. In addition, such third party code may also depend on and load
+multiple tiers of dependencies. Please review the applicable licenses of the
 additional dependencies.
 
 

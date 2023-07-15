@@ -100,13 +100,33 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+/***/ "./src/components/Header.tsx":
+/*!***********************************!*\
+  !*** ./src/components/Header.tsx ***!
+  \***********************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar Header = function (_a) {\n    var message = _a.message;\n    return (0, jsx_runtime_1.jsx)(\"div\", __assign({ className: \"header\" }, { children: message }));\n};\nexports[\"default\"] = Header;\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/components/Header.tsx?");
+
+/***/ }),
+
+/***/ "./src/components/app.tsx":
+/*!********************************!*\
+  !*** ./src/components/app.tsx ***!
+  \********************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar Header_1 = __importDefault(__webpack_require__(/*! ./Header */ \"./src/components/Header.tsx\"));\nvar App = function () {\n    return ((0, jsx_runtime_1.jsx)(jsx_runtime_1.Fragment, { children: (0, jsx_runtime_1.jsx)(\"div\", __assign({ className: \"container\" }, { children: (0, jsx_runtime_1.jsx)(Header_1.default, { message: \"Naming Contests\" }) })) }));\n};\nexports[\"default\"] = App;\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/components/app.tsx?");
+
+/***/ }),
+
 /***/ "./src/index.tsx":
 /*!***********************!*\
   !*** ./src/index.tsx ***!
   \***********************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar client_1 = __webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\");\nvar TODOS = [\"Learn React\", \"Build Something\"];\nvar App = function () {\n    return ((0, jsx_runtime_1.jsx)(\"div\", __assign({ className: \"container\", title: 'Hello React' }, { children: (0, jsx_runtime_1.jsx)(\"h1\", { children: \"Hello React\" }) })));\n};\nvar container = document.getElementById(\"app\");\nvar root = (0, client_1.createRoot)(container);\nroot.render((0, jsx_runtime_1.jsx)(App, {}));\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/index.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar client_1 = __webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\");\nvar app_1 = __importDefault(__webpack_require__(/*! ./components/app */ \"./src/components/app.tsx\"));\nvar container = document.getElementById(\"app\");\nvar root = (0, client_1.createRoot)(container);\nroot.render((0, jsx_runtime_1.jsx)(app_1.default, {}));\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/index.tsx?");
 
 /***/ })
 

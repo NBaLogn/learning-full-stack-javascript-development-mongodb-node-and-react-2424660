@@ -6,6 +6,6 @@ const root = createRoot(container);
 
 
 root.render(
-  <App initialData={{ contests: [] }} />,
+  <App initialData={(window as any).initialData} />,
 );
 

@@ -8,7 +8,7 @@ const ContestPreview = ({ contest, onClick }) => {
   const handleClick = (event) => {
     event.preventDefault();
 
-    onClick();
+    onClick(contest.id);
   };
 
   return (

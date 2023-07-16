@@ -4,7 +4,7 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <Header message="Naming ContestXXX" />
+        <Header message="Naming Contests" />
       </div>
     </>
   );

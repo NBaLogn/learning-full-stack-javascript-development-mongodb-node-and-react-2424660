@@ -106,7 +106,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
   \********************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar header_1 = __importDefault(__webpack_require__(/*! ./header */ \"./src/components/header.tsx\"));\nvar App = function () {\n    return ((0, jsx_runtime_1.jsx)(jsx_runtime_1.Fragment, { children: (0, jsx_runtime_1.jsx)(\"div\", { className: \"container\", children: (0, jsx_runtime_1.jsx)(header_1.default, { message: \"Naming ContestXXX\" }) }) }));\n};\nexports[\"default\"] = App;\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/components/app.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar header_1 = __importDefault(__webpack_require__(/*! ./header */ \"./src/components/header.tsx\"));\nvar App = function () {\n    return ((0, jsx_runtime_1.jsx)(jsx_runtime_1.Fragment, { children: (0, jsx_runtime_1.jsx)(\"div\", { className: \"container\", children: (0, jsx_runtime_1.jsx)(header_1.default, { message: \"Naming Contests\" }) }) }));\n};\nexports[\"default\"] = App;\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/components/app.tsx?");
 
 /***/ }),
 
@@ -114,9 +114,9 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /*!***********************************!*\
   !*** ./src/components/header.tsx ***!
   \***********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar Header = function (_a) {\n    var message = _a.message;\n    console.log(\"Rendering Header component\");\n    return (0, jsx_runtime_1.jsx)(\"div\", { className: \"header\", children: message });\n};\nexports[\"default\"] = Header;\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/components/header.tsx?");
+eval("\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar Header = function (_a) {\n    var message = _a.message;\n    console.log(\"Rendering Header component\");\n    return (0, jsx_runtime_1.jsx)(\"div\", __assign({ className: \"header\" }, { children: message }));\n};\nexports[\"default\"] = Header;\n\n\n//# sourceURL=webpack://13-learning-full-stack-javascript-development-mongodb-node-and-react-2424660/./src/components/header.tsx?");
 
 /***/ }),
 
@@ -134,7 +134,7 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/ 	
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -148,17 +148,17 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /******/ 			loaded: false,
 /******/ 			exports: {}
 /******/ 		};
-/******/ 	
+/******/
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 	
+/******/
 /******/ 		// Flag the module as loaded
 /******/ 		module.loaded = true;
-/******/ 	
+/******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
+/******/
 /************************************************************************/
 /******/ 	/* webpack/runtime/node module decorator */
 /******/ 	(() => {
@@ -168,13 +168,13 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /******/ 			return module;
 /******/ 		};
 /******/ 	})();
-/******/ 	
+/******/
 /************************************************************************/
-/******/ 	
+/******/
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/index.tsx");
-/******/ 	
+/******/
 /******/ })()
 ;

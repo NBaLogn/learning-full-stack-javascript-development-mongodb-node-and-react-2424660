@@ -21,5 +21,13 @@ module.exports = {
       HOST: "0.0.0.0",
       POST: "8080",
     }),
+    // new webpack.EnvironmentPlugin({
+    //   HOST: JSON.stringify(process.env.PORT) || "0.0.0.0",
+    //   POST: JSON.stringify(process.env.PORT) || "8080",
+    // }),
+    // new webpack.DefinePlugin({
+    //   "process.env.HOST": JSON.stringify(process.env.HOST),
+    //   "process.env.PORT": JSON.stringify(process.env.PORT),
+    // }),
   ],
 };

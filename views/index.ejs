@@ -9,6 +9,9 @@
         <script>
             window.initialData = <%- JSON.stringify(initialData) %>
         </script>
+        <script>
+            window.process = {browser: true, env: {ENVIRONMENT: 'BROWSER'} };
+        </script>
     </head>
 
     <body>

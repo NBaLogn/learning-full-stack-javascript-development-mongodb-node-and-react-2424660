@@ -18,7 +18,7 @@ server.get("/", (req, res) => {
   });
 });
 
-server.listen(config.PORT, config.HOST, () => {
+server.listen(Number(config.PORT), config.HOST, () => {
   console.info(
     `Express serve is listening at ${config.SERVER_URL}`,
     `Free mem: ${os.freemem() / 1024 / 1024}`,

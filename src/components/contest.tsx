@@ -30,7 +30,7 @@ const Contest = ({ initialContest, onContestListClick }) => {
       contestId: contest.id,
       newNameValue: newNameInput.value,
     });
-    console.log("🚀 ~ file: contest.tsx:33 ~ handleNewNameSubmit ~ updatedContest:", updatedContest)
+    setContest(updatedContest);
   };
 
   return (

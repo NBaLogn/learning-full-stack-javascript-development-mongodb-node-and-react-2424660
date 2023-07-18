@@ -1,16 +1,20 @@
 import { useEffect, useState } from "react";
+
+import { fetchContestList } from "../api-client";
+
 import ContestPreview from "./contest-preview";
-import Header from './header';
-// import { fetchContestList } from "../api-client";
+import Header from "./header";
 
 const ContestList = ({ initialContests, onContestClick }) => {
-  const [contests, setContest] = useState(initialContests);
+  const [contests, setContest] = useState(initialContests ?? []);
 
   useEffect(() => {
-    // fetchContestList().then((contests) => {
-    //   setContest(contests);
-    // });
-  }, []);
+    if (!initialContests) {
+      fetchContestList().then((contests) => {
+        setContest(contests);
+      });
+    }
+  }, [initialContests]);
 
   return (
     <>

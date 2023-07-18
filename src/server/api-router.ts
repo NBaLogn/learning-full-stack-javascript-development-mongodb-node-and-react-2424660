@@ -24,7 +24,6 @@ router.get("/contests", async (req, res) => {
 router.get("/contest/:contestId", async (req, res) => {
   const client: Db = await connectClient();
 
-  console.log(req.params.contestId);
   const contest = await client
     .collection("contests")
     .findOne({ id: req.params.contestId });

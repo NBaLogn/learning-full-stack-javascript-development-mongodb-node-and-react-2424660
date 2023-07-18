@@ -1,9 +1,5 @@
 import * as React from "react";
 
-// const ContestPreview: React.FC<{
-//   contest: object;
-//   onClick: any;
-// }> = ({ contest, onClick }) => {
 const ContestPreview = ({ contest, onClick }) => {
   const handleClick = (event) => {
     event.preventDefault();

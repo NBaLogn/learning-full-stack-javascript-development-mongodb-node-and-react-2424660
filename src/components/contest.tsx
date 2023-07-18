@@ -20,6 +20,12 @@ const Contest = ({ initialContest, onContestListClick }) => {
     onContestListClick();
   };
 
+  const handleNewNameSubmit = (event) => {
+    event.preventDefault();
+    const newNameInput = event.target.newName;
+    console.log(newNameInput.value);
+  };
+
   return (
     <>
       <Header message={contest.contestName} />
@@ -40,6 +46,19 @@ const Contest = ({ initialContest, onContestListClick }) => {
           ) : (
             <div>No names proposed yet</div>
           )}
+        </div>
+
+        <div className="title">Propose a new Name</div>
+        <div className="body">
+          <form onSubmit={handleNewNameSubmit}>
+            {/* <form> */}
+            <input
+              type="text"
+              name="newName"
+              placeholder="New Name here..."
+            />
+            <button type="submit">Submit</button>
+          </form>
         </div>
         <a
           href="/"
